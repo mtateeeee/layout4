@@ -12,9 +12,7 @@ ul {
   text-align: center;
 }
 
-.content {
-  
-}
+.content {}
 
 .column1,
 .column2,
@@ -382,15 +380,16 @@ li {
   color: #000000;
 }
 
-.cuscard{
+.cuscard {
   display: flex;
   justify-content: space-between;
   gap: 60px;
   max-width: 100vw;
   overflow-x: scroll;
-  
+
 
 }
+
 .cuscard::-webkit-scrollbar {
   height: 10px;
 }
@@ -411,22 +410,50 @@ li {
 
 .cuscard::-webkit-scrollbar:vertical {
   display: none;
-} 
-.card{
+}
+
+.card {
   background-color: #C1DCDC;
   width: 900px;
   height: 490px;
   border-radius: 12px;
   flex-shrink: 0;
 }
-.card p{
-width: 800px;
-height: 81px;
-padding: 30px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
 
-color: rgba(30, 30, 30, 0.75);
+.card p {
+  width: 800px;
+  height: 81px;
+  padding: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  flex-direction: column;
+
+  color: rgba(30, 30, 30, 0.75);
+}
+
+.footer {
+  background-color: #C1DCDC;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.txtcard p {
+  display: flex;
+  position: relative;
+
+  font-family: 'Poppins';
+  font-size: 300px;
+  top:-323px;
+  left:100px;
+  padding-top:50px;
+}
+
+.txtcard img {
+  width: 25%;
+  padding-left: 50px;
+  position: relative;
+  top:-744px
+
 }
